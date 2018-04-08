@@ -19,3 +19,6 @@ ul a {
 h1 + p {
     color: pink;
 }
+ul#lista > li:not(.last) {
+    background-color: beige;    
+}
