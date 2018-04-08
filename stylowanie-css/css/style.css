@@ -35,7 +35,10 @@ header#header {
     color: cornsilk;
     font-size: 40px;
     position: absolute;
-    top: 40%; left: 25%;
+    top: 40%; 
+    left: 0;
+    right: 0;
+    margin: 0;
     text-transform: uppercase;
 }
 
@@ -49,12 +52,13 @@ header#header > img {
     top: -23px;
     text-align: center;
     padding: 15px;
+    margin-bottom: 20px;
 }
 footer#contact {
+    position: relative;
+    bottom: 40px;
     padding: 10px;
-    color: white;
+    color: ghostwhite;
     text-align: center;
-}
-footer#contact-content > span {
-    color: red;
+    padding-bottom: 10px;
 }
