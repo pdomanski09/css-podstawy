@@ -1,0 +1,21 @@
+/* Selektor znacznika */
+p {
+    color: orange;
+}
+
+#paragraf {
+    color: fuchsia
+}
+a, span,div {
+    background-color: lime
+}
+li > a {
+    background-color: darkturquoise
+}
+
+ul a {
+    background-color: blue
+}
+h1 + p {
+    color: pink;
+}
