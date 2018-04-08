@@ -30,4 +30,7 @@ body {
 #pierwszy-absolutny {
     background-color: violet;
     margin: 20px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
 }
