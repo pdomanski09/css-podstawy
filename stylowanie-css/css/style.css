@@ -1,0 +1,44 @@
+a, li, h1 {
+    text-decoration: none;
+    color: aliceblue;
+}
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato" , "sans-serif";
+}
+#menu {
+    background-color: black;
+    color: aliceblue
+}
+nav#menu > ul {
+    text-align: center;
+    margin: 0;
+    font-size: 15px;
+}
+nav#menu > ul > li {
+    display: inline-block;
+}
+.menu-item {
+    padding: 20px;
+    width: 60px;
+    height: 20px;
+}
+a:hover {
+    color: grey;
+}
+header#header {
+    position: relative;
+}
+#header h1 {
+    color: cornsilk;
+    font-size: 40px;
+    position: absolute;
+    top: 40%; ;
+    text-transform: uppercase;
+}
+
+header#header > img {
+    width: 100%;
+}
