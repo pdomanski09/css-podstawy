@@ -1,0 +1,23 @@
+body {
+    background-color: lime;
+}
+div {
+    width: 400px;
+    margin: 5px;
+    height: 50px;
+}
+#predefiniowane {
+ background-color: darkmagenta;   
+}
+#hex {
+    background-color: #2f4858;
+}
+#hex-skrocony {
+    background-color: #f4a;
+}
+#rgb {
+    background-color: rgb(22, 45, 231);
+}
+#rgba {
+    background-color: rgba(22, 45, 231, 0.5);
+}
