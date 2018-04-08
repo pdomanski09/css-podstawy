@@ -2,13 +2,24 @@ body {
     background-color: pink;
 }
 #pierwszy {
-    background-color: darkolivegreen;
+    background-color: red;
     width: 600px;
     height: 100px;
     margin-bottom: 10px;
+    position: relative;
+    top: 40px;
+    left: 30px;
 }
 #drugi {
-    background-color: darkcyan;
+    background-color: green;
     width: 600px;
     height: 100px;
+}
+#trzeci {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
 }
